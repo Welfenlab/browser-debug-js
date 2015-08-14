@@ -5,18 +5,19 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish" : "node node_modules/gulp/bin/gulp.js"
+    "prepublish": "node node_modules/gulp/bin/gulp.js"
   },
   "devDependencies": {
     "browserify": "^11.0.1",
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "vinyl-source-stream": "^1.1.0"
   },
   "keywords": [
     "Browser",
     "Debug"
   ],
   "repository": "github:Welfenlab/browser-debug-js",
-  "contributors" : [
+  "contributors": [
     "Maximilian Klein <dasmaxl@gmail.com> (https://github.com/LittleHelicase)",
     "Maik Marschner (https://github.com/leMaik)",
     "Tim Ebbeke (https://github.com/5cript)"
